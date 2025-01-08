@@ -113,7 +113,6 @@ main section {
 .about {
   padding: 131px 157px;
   border-radius: 10px;
-  margin-top: 130px;
 }
 .about-items {
   display: flex;
