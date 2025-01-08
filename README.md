@@ -64,7 +64,7 @@ simple-portfolio/
 
 ## Preview
 
-![simple-portfolio](https://github.com/user-attachments/assets/45b20c01-463c-44fb-91d4-ccc9014095e3)
+![simple-portfolio](https://github.com/user-attachments/assets/d1fc1192-ea63-438f-a432-efebf4012d03)
 
 ## Deployment
 
