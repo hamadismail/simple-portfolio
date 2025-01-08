@@ -5,15 +5,19 @@ This is a modern portfolio website designed to showcase your skills, experience,
 ## Features
 
 - **Hero Section:**
+
   - Displays your name, a tagline, and call-to-action buttons for downloading the CV and contacting you.
 
 - **About Me Section:**
+
   - Provides a brief introduction, including your personal details such as name, email, date of birth, and location.
 
 - **Skills Section:**
+
   - Highlights your technical skills and tools you use, such as JavaScript, React, Node.js, and MongoDB.
 
 - **Resume Section:**
+
   - Summarizes your education and professional experience in a structured format.
 
 - **Contact Section:**
@@ -24,16 +28,19 @@ This is a modern portfolio website designed to showcase your skills, experience,
 
 - **HTML5:** For structuring the web page content.
 - **CSS3:** For styling and layout.
+- **Font Awesome:** For icons.
 - **Google Fonts:** For modern and professional typography.
 
 ## Setup Instructions
 
 1. Clone the repository:
+
    ```bash
    git clone https://github.com/hamadismail/simple-portfolio.git
    ```
 
 2. Navigate to the project directory:
+
    ```bash
    cd simple-portfolio
    ```
@@ -44,6 +51,7 @@ This is a modern portfolio website designed to showcase your skills, experience,
    ```
 
 ## Folder Structure
+
 ```
 simple-portfolio/
 ├── index.html
@@ -63,6 +71,7 @@ simple-portfolio/
 You can deploy this project on any static hosting service like GitHub Pages, Netlify, or Vercel:
 
 - **GitHub Pages:**
+
   1. Commit and push your code to a GitHub repository.
   2. Go to the repository settings and enable GitHub Pages.
 
@@ -72,6 +81,7 @@ You can deploy this project on any static hosting service like GitHub Pages, Net
 ## Customization
 
 To personalize this portfolio for yourself:
+
 1. Update the `index.html` file with your details such as name, skills, education, and experience.
 2. Replace placeholder images in the `images/` folder with your own.
 3. Modify `styles.css` to change the colors, fonts, or layout.
