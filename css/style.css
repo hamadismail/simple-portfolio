@@ -41,10 +41,11 @@
   text-align: justify;
 }
 
-/* * {
-  margin: 0;
-  padding: 0;
-} */
+body {
+  max-width: 1340px;
+  margin: 0 auto;
+}
+
 /* header */
 .header {
   background-image: url('../images/developer.png'),
@@ -234,4 +235,51 @@ footer textarea {
   padding: 10px 20px;
   margin-bottom: 24px;
   border: none;
+}
+
+/* Responsive Media Query*/
+.hide {
+  display: none;
+}
+@media screen and (max-width: 576px) {
+  nav,
+  .banner,
+  .skills-container,
+  .resume-container,
+  .about-items,
+  footer {
+    flex-direction: column;
+  }
+  footer,
+  .about,
+  .resume-container {
+    padding: 20px;
+  }
+  .footer-column {
+    width: 100%;
+  }
+  footer input[type='text'],
+  footer input[type='email'],
+  footer textarea {
+    width: calc(100% - 40px);
+  }
+  .header {
+    background-image: none;
+  }
+  .banner,
+  nav {
+    margin: 20px;
+  }
+  .banner-profile-pic {
+    width: 100%;
+  }
+  nav > ul {
+    gap: 20px;
+  }
+  nav > ul > li {
+    margin-right: 20px;
+  }
+  .btn-primary {
+    margin-bottom: 20px;
+  }
 }
